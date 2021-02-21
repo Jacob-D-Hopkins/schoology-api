@@ -1,7 +1,7 @@
 const axios = require('axios')
 const crypto = require('crypto')
 
-const {consumerKey, consumerSecret} = require('../config')
+const {consumerKey, consumerSecret} = require('./config')
 
 const genToken = () => {
     // Get header params
